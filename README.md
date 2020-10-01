@@ -1,5 +1,5 @@
 # Auto-Infirmary- An auto-hospital application.
-"Infirmary is more than just an app for booking online doctor appointments. It is a one-stop shop for all your medical needs where you can:
+"Auto-Infirmary is more than just an app for booking online doctor appointments. It is a one-stop shop for all your medical needs where you can:
 
 - Book doctor appointments
 - Emergency services
