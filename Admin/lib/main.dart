@@ -1,16 +1,33 @@
+import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:custom_switch/custom_switch.dart';
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:infirmaryweb/AppBar.dart';
 import 'package:infirmaryweb/Drawer.dart';
 
 void main() {
   runApp(MyApp());
+  
+  WidgetsFlutterBinding.ensureInitialized();
+
+ Firebase.initializeApp();
+
+ 
+ 
 }
 
 class MyApp extends StatelessWidget {
+  
+ 
+ //f1.collection("test").add({"name": "hiii"});
+
+
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
+    var f1=FirebaseFirestore.instance;
+    f1.collection("test").add({"name": "noorie"});
+    
     return MaterialApp(
       title: 'Infirmary Web',
       theme: ThemeData(
