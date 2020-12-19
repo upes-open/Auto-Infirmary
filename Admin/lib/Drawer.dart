@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:infirmaryweb/AppBar.dart';
+import 'package:infirmaryweb/Change_Info.dart';
 
 import 'main.dart';
-
-
 
 Drawer appDrawer(BuildContext context){
   return Drawer(
@@ -15,7 +14,22 @@ Drawer appDrawer(BuildContext context){
         child: SafeArea(
           child: Column(
             children: [
-             ],
+              FlatButton(
+                child: Text("Change Doctor information",
+                style: TextStyle(
+                  color: Colors.blue
+                ),
+                ),
+                onPressed: (){
+                  return  showDialog(
+                    context: context,
+                    builder: (context) {
+                      return Change_Info();
+
+                    
+                },
+                
+              ) ;   }  )   ],
           ),
         ),
       ),

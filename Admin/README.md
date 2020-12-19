@@ -1,4 +1,4 @@
-# infirmaryweb
+# Infirmary-Web
 
 A new Flutter application.
 
