@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1086136695780",
+    "firebase_url": "https://auto-infirmary.firebaseio.com",
+    "project_id": "auto-infirmary",
+    "storage_bucket": "auto-infirmary.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1086136695780:android:66b9859d49440be306e5f1",
+        "android_client_info": {
+          "package_name": "muskanmodi.infirmary"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1086136695780-i3odrs8v315ccrud8rhpoisj62sm1cmn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "muskanmodi.infirmary",
+            "certificate_hash": "c84072aacc3a52c427f0a1e395fcdb23396d9c0a"
+          }
+        },
+        {
+          "client_id": "1086136695780-qdjcilbq4d0dmavef6hdmlakvoqgrku9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmK3w4apsB0tAAXk8KJTtDJFMJID98_AM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1086136695780-sdhbpkn6lb1d66ev5t9b7fp7pjp0mdto.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

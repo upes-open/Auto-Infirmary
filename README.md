@@ -1,5 +1,4 @@
 # Auto-Infirmary
-
 ## Overview
 Auto-Infirmary lets you to book appointments in case of any medical emergency. Moreover you can see the list of doctors available as well as real time traffic. The app also contains information about First-Aid which comes very handy in case of emergency. It allows you to login with your organization mail id (in this case it’s @stu.upes.ac.in).
 
