@@ -25,8 +25,6 @@ Drawer appDrawer(BuildContext context){
                     context: context,
                     builder: (context) {
                       return Change_Info();
-
-                    
                 },
                 
               ) ;   }  )   ],

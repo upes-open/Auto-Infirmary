@@ -7,16 +7,8 @@ import 'package:flutter/material.dart';
 class DatabaseMethods{
   getStream(String path)async {
     return await Firestore.instance
-        .collection(path)
-        .getDocuments();
+        .collection(path).get();
   }
-
-  /*getStreamWithSAP(String path)async {
-    return await Firestore.instance
-        .collection(path).where('SAP', isEqualTo: user.email.split('@')[0]).orderBy('timeStamp', descending: true)
-        .getDocuments();
-  }*/
-
 
   addData(String collection, Map<String, dynamic> Data){
 
