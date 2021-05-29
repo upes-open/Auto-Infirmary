@@ -6,9 +6,11 @@ import 'package:custom_switch/custom_switch.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:infirmaryweb/AppBar.dart';
+import 'package:infirmaryweb/Auth/Services/login.dart';
 import 'package:infirmaryweb/Change_Info.dart';
 import 'package:infirmaryweb/Drawer.dart';
 import 'package:infirmaryweb/Auth/Services/FirestoreService.dart';
+import 'package:infirmaryweb/HomePage/left_portion.dart';
 import 'package:infirmaryweb/Home_Page.dart';
 
 void main() {
@@ -64,7 +66,8 @@ class _MyappState extends State<Myapp> {
       ),
     
       routes: {
-        "/":(context)=> MyHomePage(title: "Flutter Demo Page"),
+        "/":(context)=> login(),
+        "dashboard":(context)=> MyHomePage(),
         "Change_Info":(context)=> Change_Info()
       }
     );
@@ -72,3 +75,27 @@ class _MyappState extends State<Myapp> {
 }
 
 
+/*
+import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
+//import 'package:google_fonts/google_fonts.dart';
+import 'package:infirmaryweb/pages/main_page.dart';
+
+void main() => runApp(MyApp());
+
+class MyApp extends StatelessWidget {
+  // This widget is the root of your application.
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'Flutter Demo',
+      debugShowCheckedModeBanner: false,
+      theme: ThemeData(
+        primarySwatch: Colors.blue,
+        textTheme: TextTheme(title: TextStyle(color: Colors.black)),
+        //fontFamily: GoogleFonts.montserrat().fontFamily,
+      ),
+      home: MainPage(),
+    );
+  }
+}*/

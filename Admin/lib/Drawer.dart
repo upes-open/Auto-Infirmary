@@ -7,7 +7,7 @@ import 'main.dart';
 Drawer appDrawer(BuildContext context){
   return Drawer(
     child: Scaffold(
-      appBar: appBar(),
+      appBar: appBar(context),
       body: Container(
         width: MediaQuery.of(context).size.width,
         color: Colors.black,
