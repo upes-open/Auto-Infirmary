@@ -2,10 +2,11 @@ import 'package:flutter/material.dart';
 
 
 
-AppBar appBar(){
+AppBar appBar(BuildContext context){
   return AppBar(
+    actions: [FlatButton(onPressed: ()=>Navigator.pop(context), child: Text("Logout"))],
     title: Center(child: Text('INFIRMARY WEB',
-    style: TextStyle(color: Colors.yellow[600]),
+    style: TextStyle(color: Colors.white),
     )),
     
     
@@ -14,10 +15,11 @@ AppBar appBar(){
         gradient: LinearGradient(begin: Alignment.centerLeft,
         end: Alignment.centerRight,
         colors: [
-          Colors.cyan[500],
-           Colors.black
+          Colors.orange[300],
+           Colors.green
         ]
         ))
     ),
   );
 }
+
