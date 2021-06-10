@@ -1,7 +1,7 @@
 import 'package:custom_switch/custom_switch.dart';
 import 'package:flutter/material.dart';
-import 'package:infirmaryweb/Home_Page.dart';
-import 'package:infirmaryweb/widget/doctor_list.dart';
+import 'package:infirmaryweb/view/screen/Home_Page.dart';
+import 'package:infirmaryweb/view/widget/doctor_list.dart';
 
 class left_part extends StatefulWidget {
   @override

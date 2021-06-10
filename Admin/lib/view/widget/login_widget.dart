@@ -2,12 +2,6 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:infirmaryweb/Auth/Services/login.dart';
-//import 'package:fluttertoast/fluttertoast.dart';
-import 'package:infirmaryweb/Change_Info.dart';
-import 'package:infirmaryweb/HomePage/right_portion.dart';
-import 'package:infirmaryweb/Home_Page.dart';
-import 'package:modal_progress_hud/modal_progress_hud.dart';
 import 'package:toast/toast.dart';
 
 bool _obscureText=true;

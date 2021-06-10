@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:infirmaryweb/AppBar.dart';
-import 'package:infirmaryweb/Change_Info.dart';
-
-import 'main.dart';
+import 'package:infirmaryweb/view/screen/AppBar.dart';
+import 'package:infirmaryweb/view/screen/Change_Info.dart';
 
 Drawer appDrawer(BuildContext context){
   return Drawer(

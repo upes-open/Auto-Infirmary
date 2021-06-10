@@ -1,17 +1,7 @@
-import 'dart:html';
-import 'dart:ui';
-
-import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:custom_switch/custom_switch.dart';
-import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
-import 'package:infirmaryweb/AppBar.dart';
 import 'package:infirmaryweb/Auth/Services/login.dart';
-import 'package:infirmaryweb/Change_Info.dart';
-import 'package:infirmaryweb/Drawer.dart';
-import 'package:infirmaryweb/Auth/Services/FirestoreService.dart';
-import 'package:infirmaryweb/HomePage/left_portion.dart';
-import 'package:infirmaryweb/Home_Page.dart';
+import 'package:infirmaryweb/view/screen/Change_Info.dart';
+import 'package:infirmaryweb/view/screen/Home_Page.dart';
 
 void main() {
   runApp(Myapp());

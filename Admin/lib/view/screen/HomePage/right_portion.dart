@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:infirmaryweb/widget/card_tile.dart';
+import 'package:infirmaryweb/view/widget/card_tile.dart';
+
 
 class right_part extends StatefulWidget {
   

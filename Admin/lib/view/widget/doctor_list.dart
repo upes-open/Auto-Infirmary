@@ -1,6 +1,6 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
-import 'package:infirmaryweb/widget/doctor_information.dart';
+import 'package:infirmaryweb/view/widget/doctor_information.dart';
 
 class doctorlist extends StatelessWidget {
   const doctorlist({

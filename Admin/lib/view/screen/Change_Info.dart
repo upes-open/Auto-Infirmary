@@ -1,8 +1,6 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
-import 'package:infirmaryweb/Auth/Services/FirestoreService.dart';
-import 'package:infirmaryweb/Home_Page.dart';
-import 'package:infirmaryweb/main.dart';
+import 'package:infirmaryweb/view/screen/Home_Page.dart';
 import 'package:toast/toast.dart';
 
 var animation,a;

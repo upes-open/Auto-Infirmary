@@ -1,12 +1,12 @@
 
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
-import 'package:infirmaryweb/AppBar.dart';
-import 'package:infirmaryweb/Drawer.dart';
-import 'package:infirmaryweb/HomePage/left_portion.dart';
-import 'package:infirmaryweb/HomePage/middle_portion.dart';
-import 'package:infirmaryweb/HomePage/right_portion.dart';
-import 'Auth/Services/FirestoreService.dart';
+import 'package:infirmaryweb/Auth/Services/FirestoreService.dart';
+import 'package:infirmaryweb/view/screen/AppBar.dart';
+import 'package:infirmaryweb/view/screen/Drawer.dart';
+import 'package:infirmaryweb/view/screen/HomePage/left_portion.dart';
+import 'package:infirmaryweb/view/screen/HomePage/middle_portion.dart';
+import 'package:infirmaryweb/view/screen/HomePage/right_portion.dart';
 
 List <String> doctor_list=List<String>();
   QuerySnapshot userStream;

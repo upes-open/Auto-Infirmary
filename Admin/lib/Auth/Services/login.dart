@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:infirmaryweb/widget/login_widget.dart';
+import 'package:infirmaryweb/view/widget/login_widget.dart';
 import 'package:modal_progress_hud/modal_progress_hud.dart';
 
 bool state_global=false;
