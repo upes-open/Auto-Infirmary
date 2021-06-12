@@ -1,3 +1,3 @@
 # Auto-Infirmary
 
-Auto-Imfirmary
+Auto-Infirmary
