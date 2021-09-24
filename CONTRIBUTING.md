@@ -73,7 +73,6 @@ OR
 ```
 CTRL + K from Android Studio
 ```
-
 9. Push changes on forked Repository.
 
 10. Generate a Pull Request.
